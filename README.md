@@ -4,3 +4,5 @@ The main file (diogoaosCV.tex) gathers sections from the different folders to ma
 # Compile
 From the CV directory run `latexmk diogoaosCV.tex -pdf -outdir=output`. This will generate a PDF file on the output folder.
 
+`bash push.sh "commit message"` adds all files, commits and pushes branches master and gh-pages.
+
