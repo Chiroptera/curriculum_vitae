@@ -8,8 +8,13 @@ FILE=diogoaosCV.tex
 # ---------------------------------------------------------
 
 all:
-	latexmk diogoaosCV.tex -pdf -outdir=output
-	latexmk diogoaosCV.tex -dvi -outdir=output
+	#latexmk diogoaosCV.tex -pdf -outdir=output
+	#latexmk diogoaosCV.tex -dvi -outdir=output
+	pdflatex --output-directory output  --output-directory output diogoaosCV.tex
+	bibtex output/diogoaosCV.aux
+	pdflatex --output-directory output  diogoaosCV.tex
+	pdflatex --output-directory output  diogoaosCV.tex
+	mv diogoaosCV.pdf output/
 
 clean:
 

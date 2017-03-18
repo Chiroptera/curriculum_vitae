@@ -34,6 +34,7 @@
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
+\usepackage{bibentry} % for publication listing
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
@@ -47,7 +48,8 @@
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 
-\email{diogo.aos91@gmail.com}
+\email{hi@diogoaos.eu}
+% \email{diogo.aos91@gmail.com}
 % \email{dasilva@academiafa.edu.pt}
 % \email{dasilva@emfa.pt}
 
@@ -65,18 +67,23 @@
 \makecvtitle % Print the CV title
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-
-
-\input{education/education_masters}
-
-%----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \input{experience/experience}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\input{education/education_masters}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\nobibliography{mypubs}
+\bibliographystyle{ieeetr}
+\input{experience/publications}
 
 %----------------------------------------------------------------------------------------
 %	PROJECTS SECTION
@@ -98,6 +105,11 @@
 
 \input{skills/skills}
 
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSES SECTION
+%----------------------------------------------------------------------------------------
+
+% \input{education/courses_hardware}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
@@ -116,7 +128,7 @@
 
 \cvitemwithcomment{Portuguese}{Mothertongue}{}
 \cvitemwithcomment{English}{Fluent}{}
-\cvitemwithcomment{Swedish}{Basic}{}
+% \cvitemwithcomment{Swedish}{Basic}{}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
@@ -126,7 +138,7 @@
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Books}{Traveling}
+\cvlistdoubleitem{Reading}{Traveling}
 \cvlistdoubleitem{Running}{Swimming}
 
 %----------------------------------------------------------------------------------------
