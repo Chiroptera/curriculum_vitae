@@ -6,7 +6,7 @@ cp output/diogoaosCV.pdf /tmp/diogoaosCV.pdf
 
 git checkout gh-pages
 cp /tmp/diogoaosCV.pdf ./
-git add -A
+git add diogoaosCV.pdf
 git commit -m "$1"
 git push origin gh-pages
 git checkout master

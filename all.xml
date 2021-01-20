@@ -1,0 +1,32 @@
+<courses>
+  <course>
+    <name>Self-Driving Car Engineer Nanodegree</name>
+    <place>Udacity</place>
+    <start>01/02/2017 </start>
+    <end>01/06/2019 </end>
+  </course>
+  <projects>
+
+    <!-- self driving car udacity -->
+    <project>
+      <name>SDCND Path Planning</name>
+      <description></description>
+    </project>
+    
+    <project>
+      <name>SDCND Integration</name>
+      <description>Team work on development and integration of several systems for making a car drive autonomously around a track, on simulator and real car. Integration using ROS of 2 systems: speed and steering control and traffic light recognition built with neural networks.</description>
+    </project>
+
+    <!-- work projects -->
+    <project>
+      <namep>SDCND Integration</name>
+      <description>Team work on development and integration of several systems for making a car drive autonomously around a track, on simulator and real car. Integration using ROS of 2 systems: speed and steering control and traffic light recognition built with neural networks.</description>
+    </project>
+
+    
+    <!-- personal projects -->
+
+
+  </projects>
+</courses>
